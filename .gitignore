@@ -1,0 +1,114 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map
+
+# Android related
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+
+# iOS related
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/***.xccheckout
+**/ios/.generated/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/generated.xcconfig
+
+# Exceptions to above rules.
+!**/ios/**/default.mode1v3
+!**/ios/**/default.mode2v3
+!**/ios/**/default.pbxuser
+!**/ios/**/default.perspectivev3
+
+# macOS related
+**/macos/**/*.mode1v3
+**/macos/**/*.mode2v3
+**/macos/**/*.moved-aside
+**/macos/**/*.pbxuser
+**/macos/**/*.perspectivev3
+**/macos/***.xccheckout
+**/macos/.generated/
+**/macos/Flutter/ephemeral/
+**/macos/Flutter/GeneratedPluginRegistrantSwift.swift
+
+# Windows related
+**/windows/**/*.exe
+**/windows/**/*.exe~
+**/windows/**/*.dll
+**/windows/**/*.so
+**/windows/**/*.pdb
+**/windows/**/GeneratedPluginRegistrant.cpp
+
+# Linux related
+**/linux/**/*.so
+**/linux/**/GeneratedPluginRegistrant.cc
+
+# Coverage
+coverage/
+
+# Symbols
+**/*.sym
+
+# Firebase (confidential files)
+**/android/app/google-services.json
+**/ios/Runner/GoogleService-Info.plist
+**/lib/firebase_options.dart
+**/firebase.json
+
+# Additional confidential files
+.env
+.env.local
+.env.production
+.env.staging
+secrets/
+config/secrets.json
+
+# Build outputs
+build/
