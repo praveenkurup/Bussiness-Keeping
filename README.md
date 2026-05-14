@@ -22,6 +22,7 @@ A production-ready Flutter application for small-business record keeping. It pro
   &nbsp;&nbsp;
   <img src="assets/screenshots/screen3.png" width="28%" alt="Screen 3" />
 </p>
+
 ---
 
 ### Tech stack
