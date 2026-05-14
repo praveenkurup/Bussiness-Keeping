@@ -22,9 +22,6 @@ A production-ready Flutter application for small-business record keeping. It pro
   &nbsp;&nbsp;
   <img src="assets/screenshots/screen3.png" width="28%" alt="Screen 3" />
 </p>
-
-> Place your screenshot images in the `assets/screenshots/` folder. Rename them to match the filenames above (or update the paths accordingly).
-
 ---
 
 ### Tech stack
