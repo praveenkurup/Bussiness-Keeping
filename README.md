@@ -11,6 +11,22 @@ A production-ready Flutter application for small-business record keeping. It pro
 - Push notifications (Firebase Cloud Messaging) with deep links to daily reports
 - Local notifications for foreground messages
 
+---
+
+## Screenshots
+
+<p align="center">
+  <img src="assets/screenshots/screen1.png" width="28%" alt="Screen 1" />
+  &nbsp;&nbsp;
+  <img src="assets/screenshots/screen2.png" width="28%" alt="Screen 2" />
+  &nbsp;&nbsp;
+  <img src="assets/screenshots/screen3.png" width="28%" alt="Screen 3" />
+</p>
+
+> Place your screenshot images in the `assets/screenshots/` folder. Rename them to match the filenames above (or update the paths accordingly).
+
+---
+
 ### Tech stack
 
 - Flutter (Material 3, `google_fonts`, `table_calendar`, `pie_chart`)
@@ -205,6 +221,12 @@ lib/
     invoice_detail_screen.dart
     settings_screen.dart
     staffs_screen.dart
+
+assets/
+  screenshots/
+    screen1.jfif
+    screen2.jfif
+    screen3.jfif
 ```
 
 ## Firebase Functions (Python)
